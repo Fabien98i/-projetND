@@ -1,0 +1,36 @@
+
+<h1> Creation d'information </h1>
+<form method="POST">
+    <div>
+        <label for = "nom_individu"> Nom </label>
+        <input type="text" id= "nom_individu" name="nom_individu" required>
+    </div>
+
+    <div>
+        <label for = "prenom_individu"> Prenom</label>
+        <input type="text" id= "prenom_individu" name="prenom_individu" required>
+    </div>
+
+    <div>
+        <label for = "adresse"> Adresse avec code postal </label>
+        <input type="text" id= "adresse" name="adresse" required>
+    </div>
+
+    <div>  
+        <select id="type" name="type">   
+            <option value = "etudiant"> Etudiant </option>
+            <option value = "professeur"> Professeur </option>
+        </select>
+    </div>
+    <div>  
+        <select id="formation" name="type">   
+            <option value = "1"> Developpement Informatique </option>
+            <option value = "2"> Marketing </option>
+            <option value = "3"> Réseaux et SI </option>
+            <option value = "4"> Cybersécurité </option>
+        </select>
+    </div>
+
+
+    <input type="submit" value="envoyer">
+</form>

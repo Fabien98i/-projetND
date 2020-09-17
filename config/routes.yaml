@@ -1,3 +1,26 @@
+Individu:
+  path: /
+  controller: App\Controller\HomeController::index
+
+Formation:
+  path: /
+  controller: App\Controller\HomeController::index2
+
+Entreprise: 
+  path: /
+  controller: App\Controller\HomeController::index3
+
+Insert: 
+  path: /
+  controller: App\Controller\HomeController::insert
+
+Insertent:
+  path: /
+  controller: App\Controller\HomeController::insertent
+
+Insertf:
+    path: /
+    controller: App\Controller\HomeController::insertf
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
